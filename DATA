@@ -1,0 +1,11 @@
+
+#Server：GCP HK /1C独享/10GB
+
+## 获取、安装SSR
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+
+./shadowsocksR.sh
+
+## 获取、安装BBR（四合一）加速器
+# wget -N --no-check-certificate https://raw.githubsercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bbr.sh install（失效）
+wget --no-check-certificate -O tcp.sh https://github.com/cx9208/Linux-NetSpeed/raw/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh
